@@ -1,0 +1,64 @@
+Forms > Forms | Cheat Sheet
+Forms | Cheat Sheet
+1. HTML Forms
+The HTML Forms can be used to collect data from the user.
+
+Forms are of different kinds:
+
+Login/Sign in Form
+Registration Form
+Contact Us Form, etc.
+1.1 HTML Form Element
+The HTML form element can be used to create HTML forms. It is a container that can contain different types of Input elements like Text Fields, Checkboxes, etc.
+
+HTML
+Note
+Whenever we click a button or press Enter key while editing any input field in the form, the submit event will be triggered.
+
+2. Event Object Methods
+2.1 preventDefault
+The preventDefault() method prevents the occurrence of default action.
+
+Here in the form, it prevents the default behaviour of the submit event.
+
+JAVASCRIPT
+3. Event Types
+There are different types of events.
+
+Keyboard Events
+Mouse Events
+Touch Events
+Form Events, etc.
+3.1 Form Events
+A Form Event is an event that can occur within a form.
+
+Some of the form events are:
+
+blur
+focus
+change, etc.
+3.1.1 Blur Event
+The blur event happens when an HTML element has lost focus.
+
+JAVASCRIPT
+Try out the preventDefault method and blur event in the below Code Playground.
+
+HTML
+CSS
+JAVASCRIPT
+Inspect
+  event.preventDefault();
+});
+
+
+ 
+
+Submit Feedback
+
+MARKED AS COMPLETE
+Notes
+
+Discussions
+
+Notes
+ NEW NOTE
